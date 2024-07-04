@@ -1,0 +1,30 @@
+@use 'variaveis';
+
+.plans{
+    padding: 5.6vw;
+    h2{
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-around;
+
+        &__item{
+            text-align: center;
+            padding: 60px 44px 44px;
+
+            button{
+                color: variaveis.$CorTextoSecundario;
+                background-color:  rgba(90, 82, 82, 0.171);
+                border-radius: 16px;
+                width: 335px;
+                height: 400px;
+                cursor: pointer;
+                Strong{
+                    display: block;
+                }
+            }
+    }
+}
+}

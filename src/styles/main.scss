@@ -1,4 +1,7 @@
 @use 'hero';
+@use 'shows';
+@use 'variaveis';
+@use 'plans';
 
 
 @font-face{
@@ -23,11 +26,11 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box; 
+    font-family: Avenir, sans-serif;
 }
 
 body{
-    background-color: #000b21;
-    font-family: Avenir, sans-serif;
+    background-color: variaveis.$CorFundo;
 }
 
 @mixin text($fontSize: 16px){
