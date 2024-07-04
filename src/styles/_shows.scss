@@ -11,6 +11,10 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
 
+        @media(max-width: 768px){
+            grid-template-columns: 1fr 1fr;
+        }
+
 
         &--is-active{
             display: grid;
@@ -39,6 +43,12 @@
             text-transform: uppercase;
             margin: 0 1vw;
             cursor: pointer;
+            
+            @media (max-width: 768px){
+            text-align: center;
+            display: block;
+            font-size: 12px;
+                }
             
             &--is-active{
                 border-bottom: 5px solid variaveis.$CorTextoSecundario;
